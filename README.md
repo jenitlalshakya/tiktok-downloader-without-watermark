@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
 [![Made with](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS%2C%20Node.js-orange.svg)]()
-[![Made by Jenit Lal Shakya](https://img.shields.io/badge/Made%20by-Jenit%20Lal%20Shakya-blueviolet)](https://github.com/jen-shk)
+[![Made by Jenit Lal Shakya](https://img.shields.io/badge/Made%20by-Jenit%20Lal%20Shakya-blueviolet)](https://github.com/jenit-lal-shakya)
 
 A simple and fast web application to download **TikTok videos and images without watermark**.  
 Just paste the link, and get your content instantly! Powered by **Node.js + Express backend**.
@@ -69,7 +69,7 @@ If you have ideas, improvements, or bug fixes, feel free to:
 
 ## 👤 Creator
 
-**Developed by [Jenit Lal Shakya](https://github.com/jen-shk)**  
+**Developed by [Jenit Lal Shakya](https://github.com/jenit-lal-shakya)**  
 If you found this project helpful, please give it a ⭐ on GitHub!
 
 ---
