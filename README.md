@@ -69,7 +69,7 @@ If you have ideas, improvements, or bug fixes, feel free to:
 
 ## 👤 Creator
 
-**Developed by [Jenit Lal Shakya](https://github.com/jenit-lal-shakya)**  
+**Developed by [Jenit Lal Shakya](https://github.com/jenitlalshakya)**  
 If you found this project helpful, please give it a ⭐ on GitHub!
 
 ---
