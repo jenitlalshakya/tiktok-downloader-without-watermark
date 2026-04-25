@@ -6,6 +6,7 @@ const path = require('path');
 const https = require('https');
 const { pipeline } = require('stream');
 
+require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -46,8 +47,8 @@ app.get('/api/download', async (req, res) => {
         if (!tiktokUrl) return res.status(400).json({ success: false, message: 'Please provide a TikTok URL' });
         if (!tiktokUrl.includes('tiktok.com')) return res.status(400).json({ success: false, message: 'Invalid TikTok URL' });
 
-        // Call Tikwm API
-        const apiUrl = `https://www.tikwm.com/api/?url=${encodeURIComponent(tiktokUrl)}`;
+        const BASE_API = process.env.BACKEND_API
+        const apiUrl = `${BASE_API}/api/?url=${encodeURIComponent(tiktokUrl)}`;
         const response = await axios.get(apiUrl, {
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
